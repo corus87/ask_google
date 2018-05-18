@@ -1,0 +1,6 @@
+- name: ask_google
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+  
